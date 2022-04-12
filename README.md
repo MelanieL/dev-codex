@@ -62,6 +62,12 @@ Package information: [local-web-server](https://www.npmjs.com/package/sass)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Recommended Extension for VS Code
+
+You may run into errors with the JS modules if you aren't previewing with HTTP. I recommend using the Live Server extension on VS Code to run a simple local server. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## License ©️
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.

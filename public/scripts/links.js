@@ -31,6 +31,6 @@ const links = {
 
 }
 
-export { links };
+export { links }
 
 
