@@ -54,14 +54,6 @@ I hope you find some things here that you can use!
 
 1. Git clone the repo to your local machine
 2. In the root folder, run `npm install`
-
-### Running the Web Server
-
-Package information: [local-web-server](https://www.npmjs.com/package/local-web-server)
-
-1. To install a local web server: `npm install -g local-web-server`
-2. Run: `ws`
-3. For https, run: `ws --https`
 ### SCSS/SASS Commands
 
 Package information: [local-web-server](https://www.npmjs.com/package/sass)
