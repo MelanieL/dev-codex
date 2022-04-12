@@ -50,11 +50,16 @@ I hope you find some things here that you can use!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ## Setup / Installation  💻
+## Setup / Installation  💻
 
-1. 
+1. Git clone the repo to your local machine
+2. In the root folder, run `npm install`
 
-<p align="right">(<a href="#top">back to top</a>)</p> -->
+### SCSS/SASS Commands
+
+1. To watch for changes and re-compile SCSS/SASS: `sass --watch src/scss-sass/styles.scss public/styles/styles.css`
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License ©️
 
