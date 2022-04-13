@@ -18,6 +18,7 @@ This project is currently in development.
 *   HTML
 *   CSS
 *   [SCSS/SASS](https://sass-lang.com/)
+*   JavaScript
 
 
 
@@ -58,7 +59,7 @@ I hope you find some things here that you can use!
 
 Package information: [local-web-server](https://www.npmjs.com/package/sass)
 
-1. To watch for changes and re-compile SCSS/SASS: `sass --watch src/scss-sass/styles.scss public/styles/styles.css`
+1. To watch for changes and re-compile SCSS/SASS: `npm run sass-watch`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,10 +89,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-<!-- ## Credits 📝
+## Credits 📝
 
-* []()
-* []()
-* []()
+* [Coolors](https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5) - I decided to use the generator and use the first palette it came up with.
 
-<p align="right">(<a href="#top">back to top</a>)</p> -->
+<p align="right">(<a href="#top">back to top</a>)</p>
