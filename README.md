@@ -44,9 +44,9 @@ I hope you find some things here that you can use!
 
 ## Approach/Planning 🚶
 
-- [ ] White board rough sketch of front end
-- [ ] Identify MVPs vs Stretch Goals
-- [ ] Identify timeline
+- [x] White board rough sketch of front end
+- [x] Identify MVPs vs Stretch Goals
+- [x] Identify timeline
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -92,5 +92,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Credits 📝
 
 * [Coolors](https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5) - I decided to use the generator and use the first palette it came up with.
+* [Bootstrap](https://getbootstrap.com/docs/5.0/layout/containers/) - This project isn't using Bootstrap, but it's following the max-width they use on containers.
 
 <p align="right">(<a href="#top">back to top</a>)</p>

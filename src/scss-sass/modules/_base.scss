@@ -1,1 +1,18 @@
 // _base.scss
+
+// Mixins
+
+@mixin flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    @include flexRow;
+    padding: 1% 0;
+}

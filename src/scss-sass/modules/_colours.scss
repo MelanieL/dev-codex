@@ -1,25 +1,14 @@
 // _colours.scss
 
-/* CSS HEX */
---dark-purple: #331832ff;
---ruby: #d81e5bff;
---tart-orange: #f0544fff;
---opal: #c6d8d3ff;
---papaya-whip: #fdf0d5ff;
-
-/* CSS HSL */
---dark-purple: hsla(302, 36%, 15%, 1);
---ruby: hsla(340, 76%, 48%, 1);
---tart-orange: hsla(2, 84%, 63%, 1);
---opal: hsla(163, 19%, 81%, 1);
---papaya-whip: hsla(40, 91%, 91%, 1);
-
 /* SCSS HEX */
 $dark-purple: #331832ff;
 $ruby: #d81e5bff;
 $tart-orange: #f0544fff;
 $opal: #c6d8d3ff;
 $papaya-whip: #fdf0d5ff;
+$dark-gray: #262626;
+$white: white;
+$black: black;
 
 /* SCSS HSL */
 $dark-purple: hsla(302, 36%, 15%, 1);
@@ -45,3 +34,12 @@ $gradient-bottom-right: linear-gradient(135deg, #331832ff, #d81e5bff, #f0544fff,
 $gradient-top-left: linear-gradient(225deg, #331832ff, #d81e5bff, #f0544fff, #c6d8d3ff, #fdf0d5ff);
 $gradient-bottom-left: linear-gradient(315deg, #331832ff, #d81e5bff, #f0544fff, #c6d8d3ff, #fdf0d5ff);
 $gradient-radial: radial-gradient(#331832ff, #d81e5bff, #f0544fff, #c6d8d3ff, #fdf0d5ff);
+
+body {
+    background: $dark-gray;
+    color: $white;
+}
+
+header {
+    background-color: $black;
+}
