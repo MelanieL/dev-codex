@@ -12,7 +12,49 @@
     flex-direction: row;
 }
 
+body {
+    @include flexCol;
+    align-items: center;
+}
+
 header {
     @include flexRow;
     padding: 1% 0;
+    width: 100%;
+}
+
+.header-container {
+    margin: 0 auto;
+}
+
+.container {
+    @include flexCol;
+    // background-color: red;
+    width: 1320px;
+}
+
+.category-section {
+    @include flexCol;
+    width: 100%;
+}
+
+.category-links {
+    @include flexRow;
+    justify-content: space-between;
+}
+
+.category-link {
+    @include flexCol;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 50px;
+    width: 15%;
+}
+
+.category-link:first-child {
+    margin-left: 0;
+}
+
+.category-link:last-child {
+    margin-right: 0;
 }

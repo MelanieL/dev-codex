@@ -43,3 +43,12 @@ body {
 header {
     background-color: $black;
 }
+
+header.category-section-header {
+    background-color: $dark-gray;
+}
+
+.category-link {
+    background-color: $white;
+    color: $black;
+}

@@ -1,34 +1,38 @@
 // _media.scss
 
-// Container sizes:
-// <576px = 100%
-// >576px = 540px
-// >768px = 720px
-// >992px = 960px
+// Following bootstrap containers
 
-
-// Mobile (small)
-
-@media (max-width: 576px) {
+@media screen and (max-width: 1399px) {
     .container {
-        width: 100%;
+        width: 1140px;
+        // background-color: orange;
     }
 }
 
-
-// Tablet
-
-@media (max-width: 768px) {
-    .container {
-        width: 720px;
-    }
-}
-
-
-// Desktop
-
-@media (max-width: 992px) {
+@media screen and (max-width: 1199px) {
     .container {
         width: 960px;
+        // background-color: purple;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+        // background-color: green;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+        // background-color: blue;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        // background-color: yellow;
     }
 }

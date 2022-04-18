@@ -5,44 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <title>Dev Codex</title>
     <link rel='stylesheet' type='text/css' href='styles/styles.css'>
 </head>
 
 <body>
     <header>
-        <h1>Developer Codex</h1>
-        <span>A resource index created by <a href="https://melanie-phillips.com" target="_blank">Melanie
-                Phillips</a></span>
+        <div class="container header-container">
+            <h1>Developer Codex</h1>
+            <span class="subtitle">A resource index created by <a href="https://melanie-phillips.com"
+                    target="_blank">Melanie
+                    Phillips</a></span>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <section class="category-section">
-            <h2 class="category-title">Tools</h2>
+            <header class="category-section-header">
+                <h2 class="category-title">Tools</h2>
+            </header>
             <!-- Will add these dynamically with JS later: -->
-            <article>
-                <h3>Link Name</h3>
-                <p class="link-description">A short description about the link.</p>
-                <div class="link-tags">
-                    <span class="link-tag">Asset</span>
-                    <span class="link-tag">Tool</span>
-                </div>
-            </article>
-            <article>
-                <h3>Link Name</h3>
-                <p class="link-description">A short description about the link.</p>
-                <div class="link-tags">
-                    <span class="link-tag">Asset</span>
-                    <span class="link-tag">Tool</span>
-                </div>
-            </article>
-            <article>
-                <h3>Link Name</h3>
-                <p class="link-description">A short description about the link.</p>
-                <div class="link-tags">
-                    <span class="link-tag">Asset</span>
-                    <span class="link-tag">Tool</span>
-                </div>
-            </article>
+            <div class="category-links">
+                <article class="category-link">
+                    <h3>Link Name</h3>
+                    <p class="link-description">A short description about the link.</p>
+                    <div class="link-tags">
+                        <span class="link-tag">Asset</span>
+                        <span class="link-tag">Tool</span>
+                    </div>
+                </article>
+                <article class="category-link">
+                    <h3>Link Name</h3>
+                    <p class="link-description">A short description about the link.</p>
+                    <div class="link-tags">
+                        <span class="link-tag">Asset</span>
+                        <span class="link-tag">Tool</span>
+                    </div>
+                </article>
+                <article class="category-link">
+                    <h3>Link Name</h3>
+                    <p class="link-description">A short description about the link.</p>
+                    <div class="link-tags">
+                        <span class="link-tag">Asset</span>
+                        <span class="link-tag">Tool</span>
+                    </div>
+                </article>
+                <article class="category-link">
+                    <h3>Link Name</h3>
+                    <p class="link-description">A short description about the link.</p>
+                    <div class="link-tags">
+                        <span class="link-tag">Asset</span>
+                        <span class="link-tag">Tool</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="category-section">
+            <header class="category-section-header">
+                <h2 class="category-title">Tools (Populate section using JS)</h2>
+            </header>
+            <div class="category-links">
+                <article class="category-link">
+                    <h3>Link Name</h3>
+                    <p class="link-description">A short description about the link.</p>
+                    <div class="link-tags">
+                        <span class="link-tag">Asset</span>
+                        <span class="link-tag">Tool</span>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <script type="module" src="scripts/main.js"></script>
